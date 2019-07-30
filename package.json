@@ -1,0 +1,28 @@
+{
+  "name": "jq-cli",
+  "version": "1.0.0",
+  "description": "a jQuery cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xizhouhezai/jq-cli.git"
+  },
+  "keywords": [
+    "jQuery"
+  ],
+  "author": "xizhouhezai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xizhouhezai/jq-cli/issues"
+  },
+  "homepage": "https://github.com/xizhouhezai/jq-cli#readme",
+  "bin": {
+    "jq-cli": "./index.js"
+  },
+  "dependencies": {
+    "download-git-repo": "^2.0.0"
+  }
+}
